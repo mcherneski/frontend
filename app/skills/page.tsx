@@ -16,7 +16,7 @@ export default function SkillsPage() {
         <CardContent className='relative w-full h-full flex flex-row items-center justify-center'>
             
             <div className='flex flex-col w-full h-full'>
-                <h1 className='flex text-3xl mx-4'>Skills</h1>
+
                 <div className='flex flex-col h-full'>
                     <ul>
                         <li>Solutions Architecture</li>

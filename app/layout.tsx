@@ -28,7 +28,7 @@ export default function RootLayout({
             backgroundPosition: 'center'
           }}
         >
-          <Card className='relative w-3/5 h-3/4 backdrop-blur-md bg-transparent text-white flex flex-col'>
+          <Card className='relative h-full w-full sm:w-3/4 sm:h-3/4 backdrop-blur-md bg-transparent text-white flex flex-col'>
             <CardTop />
               {children}  
             <CardBottom />
