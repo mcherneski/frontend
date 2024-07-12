@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Card } from '@/components/ui/card'
-import { CardTop } from "@/components/custom/card-top";
-import { CardBottom } from "@/components/custom/card-bottom";
+import { Header } from "@/components/custom/header"
+import { Footer } from "@/components/custom/footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,11 +27,11 @@ export default function RootLayout({
             backgroundPosition: 'center'
           }}
         >
-          <Card className='relative h-full w-full sm:w-3/4 sm:h-3/4 backdrop-blur-md bg-transparent text-white flex flex-col'>
-            <CardTop />
-              {children}  
-            <CardBottom />
-          </Card>
+          <div className='relative h-full w-full sm:w-3/4 sm:h-3/4 backdrop-blur-md bg-transparent text-white flex flex-col sm:border-white sm:border-[1px] sm:rounded-md'>
+            <Header />
+                {children}  
+            <Footer />
+          </div>
         </div>
       </body>
     </html>

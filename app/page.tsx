@@ -1,8 +1,8 @@
-import { HomeCard } from '@/components/custom/home-card'
+import { HomePage } from '@/components/custom/home'
 
 export default function Home() {
   
   return (
-    <HomeCard />
+    <HomePage />
   );
 }

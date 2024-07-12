@@ -24,7 +24,7 @@ export function CardBottom() {
                 </CardFooter>
             </div>
             <div className='block md:hidden'>
-                <CardFooter className='absolute w-full bottom-0 flex flex-row justify-end'>
+                <CardFooter className='absolute w-full bottom-0 flex flex-row justify-center'>
                     <MenuDrawer />
                 </CardFooter>
             </div>
